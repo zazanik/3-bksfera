@@ -1,0 +1,61 @@
+//clearfix
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after{
+  content: '';
+  display: table;
+}
+.container::after,
+.clearfix::after{
+  clear: both;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  min-height: calc(100vh - 155px);
+}
+a, a:hover, a:link, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: rgb(244, 244, 244);
+}
+
+.up-line{
+  display: block;
+  height: 40px;
+  background-color: rgb(215, 215, 215);
+  .text{
+    color: rgb(60, 60, 60);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    position: relative;
+  }
+  .text:before{
+    content: "";
+    background: url("../images/arrow.png") no-repeat;
+    width: 23px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+  }
+}
