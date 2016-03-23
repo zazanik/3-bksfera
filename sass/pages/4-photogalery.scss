@@ -1,0 +1,35 @@
+.photogalery{
+  margin: 30px 0 30px 0;
+  padding: 1px 5% 1px 5%;
+  background-color: rgb(249, 249, 249);
+  border-radius: 10px;
+  box-shadow: 1.1px 1.7px 7px rgba(15, 16, 16, 0.24);
+  .photogalery-cont{
+    margin: 35px 0 20px 0;
+    padding: 15px 5% 0 5%;
+    text-align: center;
+    background-color: rgb(218, 232, 180);
+    .photo{
+      display: block;
+    }
+    .photo img{
+      width: 100%;
+    }
+    .link{
+      margin: 25px 0 30px 0;
+      display: inline-block;
+      color: rgb(0, 165, 253);
+      font-size: 15px;
+      font-weight: bold;
+      font-style: italic;
+      line-height: 22px;
+      text-decoration: underline;
+    }
+    .link:hover{
+      text-decoration: none;
+    }
+  }
+  .photogalery-cont:last-child{
+    margin-bottom: 40px;
+  }
+}

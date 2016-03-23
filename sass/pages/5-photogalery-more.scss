@@ -1,0 +1,42 @@
+.photogalery-more{
+  margin: 30px 0 30px 0;
+  padding: 1px 4% 1px 4%;
+  background-color: rgb(249, 249, 249);
+  border-radius: 10px;
+  box-shadow: 1.1px 1.7px 7px rgba(15, 16, 16, 0.24);
+  .photogalery-more-cont{
+    h2{
+      margin: 35px 0 25px 0;
+      color: rgb(0, 165, 253);
+      font-size: 15px;
+      font-weight: bold;
+      font-style: italic;
+    }
+    .flexslider{
+      margin: 0 auto;
+      border: none;
+      background-color: transparent;
+      width: 100%;
+    }
+    .flex-control-nav{
+      display: none;
+    }
+    .text{
+      margin: 30px 0 0 0;
+      color: rgb(104, 98, 100);
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 22px;
+    }
+  }
+  .link{
+    margin: 0 0 50px 0;
+    float: right;
+    color: rgb(62, 143, 0);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .link:hover{
+    text-decoration: underline;
+  }
+}
